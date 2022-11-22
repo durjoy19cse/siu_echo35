@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h1>Registration Form</h1>
+                </div>
+                <div class="panel-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="enName">Full Name * (in English Capital Letters)</label>
+                            <input type="text" class="form-control" id="enName" required>
+                        </div> <br>
+                        <div class="form-group">
+                            <label for="bnName">Full Name * (in Bengali)</label>
+                            <input type="text" class="form-control" id="bnName" required>
+                        </div> <br>
+                        <div class="form-group">
+                            <label for="fatherName">Father's/Husband's Name * </label>
+                            <input type="text" class="form-control" id="fatherName" required>
+                        </div> <br>
+                        <div class="form-group">
+                            <label for="motherName">Mother's Name * </label>
+                            <input type="text" class="form-control" id="motherName" required>
+                        </div> <br>
+                        <div class="form-group">
+                            <label for="dob">Date and Place of Birth * </label>
+                            <input type="text" class="form-control" id="dob" required>
+                        </div> <br>
+                        <div class="form-group">
+                            <label for="gender">Gender * </label>
+                            <select name="gender" id="gender" required>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="others">Others</option>
+                              </select>
+                        </div> <br>
+                        <div class="form-group">
+                            <label for="nationality">Nationality * </label>
+                            <input type="text" class="form-control" id="nationality" required>
+                        </div> <br>
+                        <div class="form-group">
+                            <label for="email">Email * </label>
+                            <input type="text" class="form-control" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="number">Phone Number * </label>
+                            <input type="text" class="form-control" id="number" required>
+                        </div> <br>
+                        <div class="form-group">
+                            <label for="permanentaddress">Permanent Address * </label> <br>
+                            <textarea name="permanentaddress" id="permanentaddress" cols="50" rows="4" required></textarea>
+                        </div> <br>
+                        <div class="form-group">
+                            <label for="presentaddress">Present Address * </label> <br>
+                            <textarea name="presentaddress" id="presentaddress" cols="50" rows="4" required></textarea>
+                        </div> <br>
+                        <div class="form-group">
+                            <label for="guardian">Guardian's Name & Phone * </label> <br>
+                            <textarea name="guardian" id="guardian" cols="50" rows="4" required></textarea>
+                        </div> <br>
+                        <div>
+                            <h6>Academic Records * </h6>
+                            <p>SSC or equivalent:</p>
+                            <label for="year1">Year</label>
+                            <input type="text" id="year1" required />
+                            <label for="board1">Board</label>
+                            <input type="text" id="board1" required />
+                            <label for="instname1">Name of the Institution</label>
+                            <input type="text" id="instname1" required />
+                            <label for="gpa1">GPA</label>
+                            <input type="text" id="gpa1" required /> <br> <br>
+                            <p>HSC or equivalent:</p>
+                            <label for="year2">Year</label>
+                            <input type="text" id="year2" required />
+                            <label for="board2">Board</label>
+                            <input type="text" id="board2" required />
+                            <label for="instname2">Name of the Institution</label>
+                            <input type="text" id="instname2" required />
+                            <label for="gpa2">GPA</label>
+                            <input type="text" id="gpa2" required />
+                        </div> <br> <br>
+                        <div>
+                            <p>I hereby declare and certify that all the information 
+                                furnished by me are accurate and correct to the best 
+                                of my knowledge. I also agree that if any information 
+                                is found false or incomplete, or any certificate and 
+                                mark sheet supplied by me found to be forged or manipulated,
+                                then my admission in the Sylhet International University 
+                                will stand cancelled and I shall be liable to any 
+                                punishment which may be given me under the law of the state 
+                                and regulations of the University.</p>
+                            <input type="checkbox" id="agreement1" name="agreement1" value="Agreement1" required>
+                            <label for="agreement1">Agree to terms and conditions</label><br> <br> <br>
+                            
+                            <p>I further undertake that if I get admitted myself in the Sylhet International 
+                                University (i) I shall abide by all the reules and regulations of the 
+                                University and (ii) that I shall accept any decision of the University 
+                                authorities in respect of academic or disciplinary matters concerning me.
+                            </p>
+                            <input type="checkbox" id="agreement2" name="agreement1" value="Agreement2" required>
+                            <label for="agreement2">Agree to terms and conditions</label>
+                        </div> <br> <br>
+                        <div>
+                            Signature of the Applicant:
+                            <input type="file" id="myFile" name="filename" required>
+                            <br> <br>
+                            Signature of Parent/Local Guardian:
+                            <input type="file" id="myFile" name="filename" required>
+                        </div> <br>
+                        
+                        <input type="submit" class="btn btn-primary">
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="panel-footer text-right">
+            <small>&copy; Durjoy & co.</small>
+        </div>
+    </footer>
+</body>
+</html>
