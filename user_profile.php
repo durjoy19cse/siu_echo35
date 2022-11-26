@@ -1,0 +1,3 @@
+<?php include("includes/header.php");?>
+
+<h1>user porfile</h1>.....
